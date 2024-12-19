@@ -1,0 +1,17 @@
+  /* css for hero section */
+  body{
+    font-family: "Abhaya Libre";
+  }
+
+  .hero-section{
+    background-image: url('../images/background-img.jpg');
+    color: #fff;
+    text-align: center;
+    padding: 224px 0;
+    background-position: center;
+  }
+
+  .title{
+    font-size: 36px;
+    font-weight: bold;
+  }
