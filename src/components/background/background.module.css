@@ -1,0 +1,56 @@
+.section{
+    height: auto;
+    background-image: linear-gradient(#010D17, #022340);
+    padding: 5em 2.5em;
+}
+.pageContainer{
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.box{
+  border: 2px solid #4d4d4d;
+  margin: 0 2px;
+}
+.solution{
+  border: dotted;
+  border-color: #4d4d4d;
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+.Background{
+  color: white;
+  font:'Abhaya Libre'
+}
+
+.BackgroundHeading{
+  text-align: left;
+}
+
+.solutionContent{
+  margin-top: 45px;
+}
+.bckImg1{
+  height: 120px;
+}
+.solImg{
+  height: 584px;
+}
+.section1{
+  border: 2px;
+  gap: 2em;
+  padding: 29px 45px;
+}
+.section1 p{
+  margin-top: 14px;
+}
+.bck{
+  margin: auto;
+}
+.solBck{
+  margin-bottom: -315px;
+}
+.solutionContent{
+  margin:37px 75px;
+}
