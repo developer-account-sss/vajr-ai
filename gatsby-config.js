@@ -16,6 +16,10 @@ module.exports = {
             name: `Abhaya Libre`,
             file: `https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Dancing+Script:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap`,
           },
+          {
+            name: `Dosis`,
+            file: `https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap`
+          }
         ],
       },
     },
