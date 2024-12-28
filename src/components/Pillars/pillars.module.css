@@ -1,0 +1,57 @@
+.pillars {
+    font-family: "Dosis";
+    display: block;
+    background: linear-gradient(180deg, #010D17 0%, #022340 100%);
+    color: #FFFFFF;
+    position: relative;
+    padding: 2.5em 0;
+}
+
+.pillars h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77.45px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+.pillars h1 span {
+    color: #FCC737;
+}
+
+.blurBg {
+    width: 714px;
+    height: 413px;
+    top: 289px;
+    left: 66px;
+    gap: 0px;
+    border-radius: 27px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #b3b3b3;
+    filter: blur(7px);
+}
+
+.box {
+    position: absolute;
+    top: 0;
+    width: 714px;
+    height: 413px;
+    color: #000000;
+}
+
+.box img {
+    width: 372px;
+    height: 301px;
+}
+
+.box span {
+    font-size: 38px;
+    border: 2px solid #FF1F93;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+}
