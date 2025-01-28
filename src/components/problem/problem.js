@@ -8,7 +8,7 @@ export const Problem = () => {
                 <div className={`col-sm-12`}>
                     <div className={`box ${styles.box1}`}>
                         <div className='d-flex justify-content-center'>
-                            <img className={styles.boxImage1} src="https://s3-alpha-sig.figma.com/img/d8e3/8d16/00854520a1c77768d0501d73e9c2765d?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QWbzSUQhl59IYtvB9MR9BOXw0zkibcXK5FqPNczR0RPocO4FT5Ryz9UIlbfofsneVhxLtFvqL~5uiqwdUitKxj9WA7XEPf35qm-JWUdTrSbWZDbjPgtNgnKqhlZ1s6mLR-ljElCZoMt6lIPPlox4OIQtWsXwqsCv~poQxtcAwKq23konpsOG-8weFE~GKRVjcAO~wGBhJjEeJv~0~TfspSyHcjq~7f586S4XbKr7EzCbAi9jHuQlolK78~Bf29moMJFC5DCibMtZhsI9EfC5lLfu4G7ahz98spc3zmDgYOkY37vxBda6JMQupABhOHQEGpFC8hEnAz1E74YXDTUQZQ__" alt="" />
+                            <img className={styles.boxImage1} src="https://s3-alpha-sig.figma.com/img/d8e3/8d16/00854520a1c77768d0501d73e9c2765d?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VhFA~KFpI5Mt1Kb3f~bNKehwsnQExOMvZWD6WKSi7gVPFT-Yx4WqzzFHDDaPpJ41hmXhnQnbVGtvA4v7ia4xRBvLOhRnSXgHicoaPX850xx69uvSWJyS0q9SfMq8ilEYzX8Jtak9SzbQt90RXYf794YiPR0hKb44Ty33840FUayBbHnZ95dmC8rNG~i-hYkpTFK-zlJCsa9qqOuuZVODzGx4lMI4V0RJHqhx3LECV9~TbVgfcU7Avb5akT73OC5O3Y2mlpPuY7IKaSU4mRQ7AkBflfyp0qO-PzPxxmHU4E45OGgzspQdOuxkCrBgfeDN2EFzWMCNsziH01m6le5O~Q__" alt="" />
                         </div>
                         <div className={styles.boxContent1}>
                             <span className="">Modern drone swarms are multi-agent,</span>
@@ -26,7 +26,7 @@ export const Problem = () => {
                 <div className={`col-sm-3 ${styles.boxParent} `}>
                     <div className= {`${styles.box2}`}>
                         <div className='d-flex justify-content-center'>
-                            <img className={`${styles.image1}`} src="https://s3-alpha-sig.figma.com/img/d165/2f6d/aaf58001d93c0e46960c66b1bc71fd1d?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=VTy7BoMAD5UMpNYA~z85SrDry7SjzvDw6lBa-x6A1M8wdiMKcgsm7yoMtL3~R-UloweVMtUET97ODu1heSW2eDkudK-W2tbUo44-bQXWnWkvQbpYg0DR7naMyKYnNXZXmJyLu~6G7R4kUHMEp0BUPBbhKRxKR95kMHEiGk2NYcrMOEK3MUm6RXwKK~9g8nwBwsrS0Xb4yGoL140QVOWxRH6LG-BHsWzzpJNIruW1g3K7E4-lyNZ4gLY3wQ0Pc1S~dyx0xsrQNTtjM4vWe5LF8wI6ljez2Hkb9iP1Gsh31389InlqxF75X1EPq0dVXBa18V1p-DVyZDoFwJgvkDiwfg__" alt="" />
+                            <img className={`${styles.image1}`} src="https://s3-alpha-sig.figma.com/img/d165/2f6d/aaf58001d93c0e46960c66b1bc71fd1d?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IttKfZHstxoXVY6aMHVct3HAjODevVhQ1170o~RotKlGD0EBrJvHz0D1ycU8KuzLxHEwt4cwE9-TRQQ-WN6K4L4HmEOGUy9rD~IhppL4ZXdzPpseOHoaW2a76BldSSVI3x9mqoo1RQTz9SSsfsQ7dO9okhuGacn1gBEhMlf4r7VRAp6lB4pW1NXmFiD~6FmJZlAJDF3q62pc8x39lKTPu8XXZ3fmwRSO3sqZfq0lwuX5crE~nDddlx0z-S9HdRSzROi67Fvbn9FCtE-EnsA~-EEneYT3Qpq9pwYiNP~xzZdPLaMz5Qc6Pwl-lNJQ~Z0~R9si2BZzsBS7KzJPpyAtEw__" alt="" />
                         </div>
                         <div className={`${styles.boxContent2}`}>
                             <span>Existing C-UAS systems are Cost-Prohibitive and</span>
@@ -44,7 +44,7 @@ export const Problem = () => {
                     </div>
                     <div className= {`${styles.box2}`}>
                         <div className='d-flex justify-content-center'>
-                            <img className={`${styles.image1}`} src="https://s3-alpha-sig.figma.com/img/6fea/fff5/cca55cee694193e65bf50ee71f34ebd5?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XezuyT-1qSQgbes7jciMaYYgzjxTBYwXUQqU~pFah9KAdpA8be3d3w7y0pdMRM1EAKsCj8RgmYDGyJmUYJChk1SheO~~jM3~tQbzwEvLlgcga6MiEVrbZjL7qHNN8Z7ycn8hNAlq2u59ZjKUSUjNiIS~VBmfFPmc5Wo6XQc0mQAsQb9eS6XK8oIKEfUQCDPZcvx2-X17eYmAwn4f~e3Rtea5PEbTOhFCnA3ySMI1i3EjU8lEtrsYtedF50tmtCu7sYzP4mzHGo42zpe-eMgriF944wQkTORj7Ic1FOWmPkn-FismzGGWNvzG~1BhKmky9jub7ITQbsIvRJIUTKPlzw__" alt="" />
+                            <img className={`${styles.image1}`} src="https://s3-alpha-sig.figma.com/img/6fea/fff5/cca55cee694193e65bf50ee71f34ebd5?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kfxW71n6kdoUN~s-5Cg6l1oIV3ogj0tpRMylGBwA2KE-kEzorkjL9EUPAQuO8bvaUGqumyvZG83JBvWcPaOUaaBR7FeVJHYr8VHFFcumFcnn2irP0HkFA2Nr0mCqscfBtUN8s5S7GjQSJKQmmOFPWLMqDfevUtXqh5TUL0iaV4j1I3MEjdDJa7wL8fv4-GDLL6z3WQNxArSQ8amPaFdWG-I7ICBnI77zejif~U-s4zefj4YjXRg-3suFXwSZuhLvRzFxRaRA2dx1jlv2pmR7otI4EpINoQ0zA2NfaA5Dp3ElNv8k9MOjyKPS-6D2KW~g175HxJgTgltFy6H9hE3Puw__" alt="" />
                         </div>
                         <div className={`${styles.boxContent2}`}>
                             <span>Evade jamming and detection with frequency</span>
@@ -63,13 +63,13 @@ export const Problem = () => {
                 </div>
 
                 <div className={`col-sm-6 d-flex justify-content-center`}>
-                    <img className={styles.backgroundImg} src="https://s3-alpha-sig.figma.com/img/3594/d404/e6c9089b62d4e2b45c12f9e9148a2229?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=CkTkkFVvOXeMGa5oiaseIw8eVIhoWs9VcC39W9lVNTl3RHbu~lxVhAqsMBxw-LMLkR2lZdYQ~OARaX4T3~V1s5PuaTeCNU1XOPi1lcOX5HOtSbyoZ4eKYMZlP-XfRHqBPjOPoLiphblzw8HGyFxQtrN0KuYk2bAYDNle8QSfQDhVrBsg491g7LnoEhToYHWiQHno557SKqhkNVYXUURHegD~UoTG0mgVAIBG3jqne9f-QA5kTox1-K~wsFaTRKGEiszcKtPyGviKsWW5T3Yy4-5LqpKnSeI3bUrtraCg7fWceM4XPNSCjYIUmOpo4ilKlTh7T3aYqzI92VIHwx2~fQ__" alt="" />
+                    <img className={styles.backgroundImg} src="https://s3-alpha-sig.figma.com/img/3594/d404/e6c9089b62d4e2b45c12f9e9148a2229?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lHORe4e1JGZs-H9r8GAWQCCc7qHJHjMnUery3-27LSaMjMfIzAOpfUP1zzXsqsIXgphMLy1NgBKa0C-NHO7~zuhRCRmg7kITawUIS05joPgM14dijFjIN8o546y9aEBqKEa1TB4JFSuVXAF5PmhllCRWwHEmerHXq7CMJenasmkBQaSlr4xZvp-JIatdvYH4pE3R3KW0JLQe-GUB0X0jDhBSkAs3IQ38TEnapz3Umo6~VxhIt4ngda0tOXaCoJj8OLiFBMaOvfb0SV69mOfTwgRS90L4o5buqJnloE9~NV84~jtYNeVwuMhRI7SwuWM3bsl2Yog1Sg0ugLosUpu99Q__" alt="" />
                 </div>
 
                 <div className={`col-sm-3 ${styles.boxParent}`}>
                     <div className={`${styles.box2}`}>
                         <div className='d-flex justify-content-center'>
-                            <img className={styles.image3} src="https://s3-alpha-sig.figma.com/img/74d2/8018/6e02822f316a740917a4d85812b82a23?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=X5KHByXmL1clixOAFFR5R695w46SkWIswsxTiDAZGsaUvPrDhwxkXX4HKZBsZGxDKEBKf-~ZQ51OjPc6Go3J-npYgcQ7eXMUipSajuIMgLsGxVSEo-nuWMRsIhyOzz8I8hvftvJIq81nEwIDQrZE9xQGmjrabEzbgF75KLXyySAK58Qta2Go-uVYvOzVxJzuAhaclSwjz83yC9voa3ny0kJgkX2GDYFsLH74BQXibbmmQhXGKnVjNIQzxz2vuhCT-M3yPqdTqvyPrFl9mMS6ueR04GfzsNO6V~NX9duh8006X52i8W8nO6IO6udRkEP1uk7IGZ2U19NI-WJIEQPqWA__" alt="" />
+                            <img className={styles.image3} src="https://s3-alpha-sig.figma.com/img/74d2/8018/6e02822f316a740917a4d85812b82a23?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=qb-fS~yYVZ-lK30VI3pJeOo6WJ64uW6AHvlQCKa3gmnHHMMl7tU8OXqKmw3LpN8KGo9eaYsLV7mPna-ZF1zd9Nj-gRZRP2VRb-zciCE~4Cmrdu45i6dkr2MNJp1SgcoxCgw55wCCGwmMIr~mW~86Y63G30Ia0mV4Vwn8teSBngCZwT7eTrxhCpEpB~2L4Eitcce2L4bjXCoP7bi3wyU6Lha2YynKsHWJdsVYb8mFWOTv-zyoLDRCBCPI8PYocHrJPXbdQrjf6TLWlLLejJmx09JtT8xK8DTPFnA2xoKmoOQQ3eDjCbJ6E-7yyEgfbVvITJSH2Jq0S~fMtUznsKWN5g__" alt="" />
                         </div>
                         <div className={`${styles.boxContent3}`}>
                             <span>Existing C-UAS systems have Low Detection &</span>
@@ -85,7 +85,7 @@ export const Problem = () => {
                     </div>
                     <div className={`${styles.box2}`}>
                         <div className='d-flex justify-content-center'>
-                            <img className={styles.image3} src="https://s3-alpha-sig.figma.com/img/5375/76e4/cceb5fea78557c71cdb14527bc276d16?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=hVuE2rr3hlxPMOb-xVt--tkWBeX7SMr6~l6B4eHorVRdp4gsmK2qeIR~hKdp-moXlIEIfkkQ3uaM2knkReyq0fW~87LRJhy4xIXs6X52lal~GYxOH2srApWbUhpRlii2VHEnj2XFYGr3aOW2rltX1JQXBbQ36vKmIF5mI7KuptKvVyy~R2itvB5Hm2D7XrKlVUS08THCOz-POnoMo1ZrFE4lPyWL-mLWn45RhtdarLegOdx9jyhtfty0JrQm-7h62o0Pl1r0S8snZprEthG6C5xqU6T2JClrnZAXjPgog2~HYSf3p13ZAD6m5aeovZgOPHQaNs-G7vIPKE6BRrnVsQ__" alt="" />
+                            <img className={styles.image3} src="https://s3-alpha-sig.figma.com/img/5375/76e4/cceb5fea78557c71cdb14527bc276d16?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RnYSiQY8TArpVIW1cl-vjRS5aKSutlKr5OQo9DIambZNcO9MhhRNtoLtqd9IhBaqcE84gPHM2NVS2GESVUX5EC9BV269W7B22Wm~bGPWH5WnLg29bmrDpA06ILjbG0sdI030RJReZhADf~tSIDTVBr1eKRLgweI85ROLHGQ2vaC~ZfnmgXNXmBg9RWTOrfYVPawSXCMnwS27Xp9lAtlz8BD0OTtfwwUqYwd6MmaqBSV9v1KzPKkt--Uz8KN~E9SvNFSHYscCSYIDWtTP9-e6rmpA7i5ci32XIAV-MovmfJPU7HsCBkpyMD2wYQ~cu9x6yFan0JH-6Owp3iLuCH2Gbg__" alt="" />
                         </div>
                         <div className={`${styles.boxContent3}`}>
                             <span>Static countermeasures ineffective against</span>

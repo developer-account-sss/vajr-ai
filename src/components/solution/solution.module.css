@@ -1,0 +1,48 @@
+.pageContainer{
+    height: auto;
+    background-image: linear-gradient(#010D17, #022340);
+    padding: 5em 2.5em;
+    color: white;
+}
+.flowChart{
+    position: relative;
+}
+.heading{
+    letter-spacing: 0.2em;
+    text-align: center;
+    border-bottom: dashed #3291D4;
+    padding: 0.5em 0.5em;
+}
+.headingText{
+    color: #FCC737;
+}
+.head2{
+    padding: 0.5em;
+    text-align: center;
+    font-size: xx-large;
+    border-radius: 30px 0px;
+    margin-top: 2em;
+    border: 2px solid gray;
+    padding: 0.5em;
+    
+}
+
+.neuraPill{
+    padding: 3.5em;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+}
+.neura{
+    background-color: gray;
+    margin-top: 69px;
+    border-radius: 44px;
+    width: fit-content;
+    padding: 0.5em 2.5em;
+    font-size: x-large;
+    font-weight: bold;
+}
+.line{
+    text-align: center;
+    margin: 5em auto;
+}

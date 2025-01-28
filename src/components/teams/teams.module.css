@@ -1,0 +1,33 @@
+.section1{
+    background-image: linear-gradient(#010D17, #022340);
+    height: auto;
+    color : white
+}
+.teamHeading{
+    text-align: center;
+    padding: 1em 0.5em;
+}
+.sectionPs{
+    border: 1px dashed gray;
+    padding: 3em 3em;
+}
+.contentPs{
+    font-size: x-large;
+    letter-spacing: 3px;
+}  
+.profilek2{
+    width: 100%;
+}
+.button{
+    padding: 0em 1em;
+    margin-top: 1em;
+    border-radius: 1em;
+}
+.image{
+    width: 265px;
+    height: 285px;
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}
