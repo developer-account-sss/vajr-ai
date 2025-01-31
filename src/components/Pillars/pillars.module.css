@@ -4,7 +4,7 @@
     background: linear-gradient(180deg, #010D17 0%, #022340 100%);
     color: #FFFFFF;
     position: relative;
-    padding: 2.5em 0;
+    padding: 2.5em;
 }
 
 .pillars h1 {
@@ -20,7 +20,13 @@
     color: #FCC737;
 }
 
-.blurBg {
+.firstBlock .content {
+    border-right: 2px solid #B3B3B3;
+    padding-right: 0.75em;
+    width: fit-content;
+}
+
+.firstBlock .blurBg {
     width: 714px;
     height: 413px;
     top: 289px;
@@ -33,20 +39,29 @@
     filter: blur(7px);
 }
 
-.box {
+.firstBlock .box {
     position: absolute;
     top: 0;
     width: 714px;
     height: 413px;
     color: #000000;
+    gap: 2.5em;
+    padding: 5em 1em;
 }
 
-.box img {
-    width: 372px;
-    height: 301px;
+.firstBlock .box img {
+    width: 300px;
+    height: 260px;
+    position: relative;
+    left: -2em;
+    top: 0;
 }
 
-.box span {
+.firstBlock .box h4 {
+    font-weight: 800;
+}
+
+.firstBlock .box span {
     font-size: 38px;
     border: 2px solid #FF1F93;
     border-radius: 50%;
@@ -54,4 +69,91 @@
     height: 75px;
     width: 75px;
     text-align: center;
+    right: -3em;
+    position: relative;
+    top: -2em;
+    font-weight: 600;
+}
+
+.firstBlock .boxContent {
+    width: 100%;
+}
+
+.firstBlock .boxContent p {
+    font-size: 24px;
+    font-weight: 500;
+    width: 50%;
+}
+
+.droneImage img{
+    width: 100%;
+}
+
+.secondBlock .content {
+    border-right: 2px solid #B3B3B3;
+    padding-right: 0.75em;
+    width: fit-content;
+}
+
+.secondBlock .blurBg {
+    width: 714px;
+    height: 413px;
+    top: 289px;
+    right: 66px;
+    gap: 0px;
+    border-radius: 27px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #b3b3b3;
+    filter: blur(7px);
+}
+
+.secondBlock .box {
+    position: absolute;
+    top: 0;
+    width: 714px;
+    height: 413px;
+    color: #000000;
+    gap: 2.5em;
+    padding: 5em 1em;
+}
+
+.secondBlock .box img {
+    width: 300px;
+    height: 260px;
+    position: relative;
+    left: -2em;
+    top: 0;
+}
+
+.secondBlock .box h4 {
+    font-weight: 800;
+}
+
+.secondBlock .box span {
+    font-size: 38px;
+    border: 2px solid #FF1F93;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+    height: 75px;
+    width: 75px;
+    text-align: center;
+    right: -3em;
+    position: relative;
+    top: -2em;
+    font-weight: 600;
+}
+
+.secondBlock .boxContent {
+    width: 100%;
+}
+
+.secondBlock .boxContent p {
+    font-size: 24px;
+    font-weight: 500;
+    width: 50%;
+}
+
+.droneImage img{
+    width: 100%;
 }
