@@ -1,9 +1,10 @@
   /* css for hero section */
-  body{
+  body {
     font-family: "Abhaya Libre";
+    background-color: #010D17;
   }
 
-  .hero-section{
+  .hero-section {
     background-image: url('../images/background-img.jpg');
     color: #fff;
     text-align: center;
@@ -11,7 +12,37 @@
     background-position: center;
   }
 
-  .title{
+  .title {
     font-size: 36px;
     font-weight: bold;
+  }
+
+  .header {
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    padding: 15px 1.5em;
+    background-color: #02234024;
+  }
+
+  .header h1{
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+
+  .header img {
+    width: 6em;
+    height: auto;
+  }
+
+  @media (min-width: 1025px) {
+    .desktop-hide {
+      display: none !important;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .mobile-hide {
+      display: none !important;
+    }
   }
