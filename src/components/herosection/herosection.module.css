@@ -1,0 +1,45 @@
+.heroSection {
+  background-image: url('../../images/background-img.jpg');
+  color: #fff;
+  text-align: center;
+  /* padding: 224px 0; */
+  background-position: center;
+  height: 100vh;
+  /* padding: 5em 2.5em; */
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  width: 60%;
+  margin: 0 auto;
+  top: 75%;
+  position: relative;
+  color: #7fb2db;
+  text-align: left;
+}
+
+@media(max-width: 1024px) {
+  .heroSection {
+    background-size: contain;
+    height: 80vh;
+  }
+  .title {
+    width: 70%;
+    top: 85%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .heroSection {
+    background-size: cover;
+    height: 380px;
+    padding-bottom: 2.5em;
+  }
+
+  .title {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+  }
+}
