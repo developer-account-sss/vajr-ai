@@ -17,6 +17,7 @@ function Seo({ description, title, children }) {
             title
             description
             author
+            siteUrl
           }
         }
       }
