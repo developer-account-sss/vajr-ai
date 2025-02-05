@@ -6,7 +6,7 @@ import HeroSection from "../components/herosection/HeroSection";
 // import Pillars from "../components/Pillars/pillars";
 import ContactUs from "../components/contact-us/contactUs";
 import logo from '../images/vajr-logo.png';
-import SplashScreen from "../components/splash-screen/splashScreen";
+// import SplashScreen from "../components/splash-screen/splashScreen";
 
 
 
@@ -19,7 +19,7 @@ const MainPage = () => {
                 <img src= {logo} alt="Logo for Vajr.ai" />
             </div>
             <HeroSection/>
-            <SplashScreen />
+            {/* <SplashScreen /> */}
             <ContactUs />
             {/* <Background/>
             <Problem/>
