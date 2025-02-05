@@ -6,24 +6,29 @@ import "./contactUs.css"
 import { useForm, ValidationError } from "@formspree/react"
 
 const ContactUs = () => {
+  const isBrowser = typeof window !== "undefined"
+
   const [isIpad, setIsIpad] = useState(false)
 
   useEffect(() => {
-    const checkScreenSize = () => {
-      setIsIpad(window.innerWidth < 1025)
-      console.log(isIpad)
+    if(isBrowser)
+      {
+        const checkScreenSize = () => {
+        setIsIpad(window.innerWidth < 1025)
+        console.log(isIpad)
+      }
+
+      checkScreenSize()
+      window.addEventListener("resize", checkScreenSize)
+
+      return () => window.removeEventListener("resize", checkScreenSize)
     }
-
-    checkScreenSize()
-    window.addEventListener("resize", checkScreenSize)
-
-    return () => window.removeEventListener("resize", checkScreenSize)
   }, [])
 
   const [state, handleSubmit] = useForm("xvgzrrww")
 
   if (state.succeeded) {
-    return <p>Thanks for joining!</p>
+    return <div className= {styles.message}><p>Hey! We have received your message and will get in touch with you soon.</p></div>
   }
 
   return (
