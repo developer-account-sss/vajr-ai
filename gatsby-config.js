@@ -3,7 +3,10 @@
  */
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.vajr.ai`,
+    author: 'SalVenture Tech LLC',
+    title: "Vajr AI| Swarm Drones",
+    description: "Intelligent, Multi-Layered Counter- Swarm UAS defense system",
   },
   plugins: [
     {

@@ -35,6 +35,16 @@
     height: auto;
   }
 
+  .show-logo {
+    transform: translateY(0px);
+  }
+
+  .transform {
+    transition: transform 1s linear, opacity 0.75s linear;
+    opacity: 0;
+    transform: translateY(-1200px);
+  }
+
   @media (min-width: 1025px) {
     .desktop-hide {
       display: none !important;
